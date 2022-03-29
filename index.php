@@ -13,11 +13,9 @@ require_once('data.php');
 <body>
     <div class="card">
     <form action="" method="post">
-    <div class="e_mail"><?php echo $err_msg['email']; ?></div>
     <label for=""><span>メールアドレス</span>
       <input type="email" name="email" id=""><br>
     </label>
-    <div class="err_msg"><?php echo $err_msg['password']; ?></div>
     <label for=""><span>パスワード</span>
       <input type="text" name="password" id=""><br>
     </label>
